@@ -21,24 +21,28 @@ const products = [
   {
     id: 1,
     title: "Pão de Queijo",
+    description: "Delicioso pão de queijo mineiro, quentinho e macio, feito com queijo curado especial.",
     price: "R$ 2,50",
     image: "https://images.unsplash.com/photo-1598233847491-f16487adee2f?w=500&q=80",
   },
   {
     id: 2,
     title: "Baguete",
+    description: "Baguete francesa tradicional, crocante por fora e macia por dentro.",
     price: "R$ 5,00",
     image: "https://images.unsplash.com/photo-1612392062422-ef19b42f74df?w=500&q=80",
   },
   {
     id: 3,
     title: "Croissant",
+    description: "Croissant folhado e amanteigado, perfeito para um café da manhã especial.",
     price: "R$ 4,50",
     image: "https://images.unsplash.com/photo-1555507036-ab1f4038808a?w=500&q=80",
   },
   {
     id: 4,
     title: "Bolo de Chocolate",
+    description: "Bolo de chocolate fofinho com cobertura de ganache, receita especial da casa.",
     price: "R$ 8,00",
     image: "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?w=500&q=80",
   },
@@ -117,6 +121,7 @@ const Index = () => {
                   className="w-full h-48 object-cover rounded-lg mb-4"
                 />
                 <h3 className="font-playfair font-semibold text-xl mb-2">{product.title}</h3>
+                <p className="text-gray-600 text-sm mb-3">{product.description}</p>
                 <p className="text-lg font-semibold text-primary mb-4">{product.price}</p>
                 <button className="w-full bg-primary text-white px-4 py-2 rounded-lg flex items-center justify-center hover:bg-secondary transition-colors">
                   <ShoppingCart className="mr-2 w-5 h-5" />
