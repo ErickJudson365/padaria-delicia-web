@@ -55,7 +55,7 @@ const Index = () => {
     <div className="min-h-screen flex flex-col bg-[#FDF5E6]">
       {/* Header */}
       <header className="bg-primary p-6 text-white text-center animate-fade-in">
-        <h1 className="font-playfair text-4xl font-bold mb-4">Padaria Delicia</h1>
+        <h1 className="font-brush text-5xl font-bold mb-4 italic underline decoration-2">Padaria Delicia</h1>
         <nav className="flex justify-center space-x-8">
           <button 
             onClick={() => setActivePage('home')}

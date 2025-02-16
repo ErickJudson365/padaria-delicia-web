@@ -52,6 +52,7 @@ export default {
       },
       fontFamily: {
         playfair: ["Playfair Display", "serif"],
+        brush: ["Brush Script MT", "cursive"],
       },
       borderRadius: {
         lg: "var(--radius)",
